@@ -1,0 +1,17 @@
+/*in order to use the following font visit the google font website and then copy the dessired
+to the index.html,and use the css one here */
+ul{
+    list-style: none;
+    font-family: "Krona One", sans-serif;
+    padding:20px;
+}
+
+li{
+    padding:10px;
+}
+
+.nav-links li .nav-link:hover{
+    text-decoration:underline;
+    color:green;
+    transition:color 0.9s
+}
