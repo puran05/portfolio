@@ -1,0 +1,41 @@
+h1,h2{
+    font-family: "Krona One", sans-serif;
+    text-transform: uppercase;
+}
+
+.left-side{
+    border:2px solid;
+}
+
+.right-side{
+    border:2px solid;
+}
+
+/* this is for the hello world tag */
+.first-name{
+    font-size: 76px;
+}
+
+/* for my first and last name */
+.introduction{
+    font-size:47px;
+
+}
+
+/* for the right side div and below is the div inside this div*/
+.right-side{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic{
+    height:350px;
+    width:350px;
+    border-radius: 50%;
+    background-image: url('../../images/display-pic.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

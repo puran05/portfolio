@@ -22,6 +22,11 @@ export default function Navbar() {
               Contact
             </Link>
           </li>
+          <li>
+            <Link className="nav-link" to="/">
+              Home
+            </Link>
+          </li>
         </ul>
       </nav>
       <Outlet />
