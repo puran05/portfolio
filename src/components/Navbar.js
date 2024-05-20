@@ -1,8 +1,9 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useLocation } from "react-router-dom";
 import "./css-styles/navbar.css";
 
 export default function Navbar() {
+  const location = useLocation();
   return (
     <>
       <nav>
@@ -22,11 +23,13 @@ export default function Navbar() {
               Contact
             </Link>
           </li>
-          <li>
-            <Link className="nav-link" to="/">
-              Home
-            </Link>
-          </li>
+          {location.pathname !== "/" && (
+            <li>
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
+            </li>
+          )}
         </ul>
       </nav>
       <Outlet />

@@ -12,5 +12,19 @@ li{
 
 .nav-links li .nav-link:hover{
     color:rgb(90, 90, 90);
-    transition:color 0.4s
+    transition:color 0.4s;
+}
+
+.nav-link::after{
+    content:'';
+    height:4px;
+    width: 5%;
+    background: blue;
+    display:block;
+    position: absolute;
+    opacity:0;
+    transition:all 0.3s ease;
+}
+.nav-link:hover::after{
+    opacity: 1;
 }

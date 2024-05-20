@@ -1,16 +1,11 @@
-h1,h2{
+h1,h2,h3,h4,h5{
     font-family: "Krona One", sans-serif;
     text-transform: uppercase;
 }
-
-.left-side{
-    border:2px solid;
+ 
+p{
+    font-family: "Open Sans", sans-serif;
 }
-
-.right-side{
-    border:2px solid;
-}
-
 /* this is for the hello world tag */
 .first-name{
     font-size: 76px;
@@ -20,6 +15,10 @@ h1,h2{
 .introduction{
     font-size:47px;
 
+}
+
+.name-subtitle{
+    padding-top: 15px;
 }
 
 /* for the right side div and below is the div inside this div*/
@@ -38,4 +37,113 @@ h1,h2{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/* to the sections below the hero section */
+.socials{
+    margin-left:25px;
+    padding:40px;
+}
+.fa-linkedin{
+    color:#0A66C2;
+    margin-right:8px;
+}
+.fa-github {
+    margin-right: 8px;
+}
+
+
+.first-intro{
+    color:black;
+    text-align: center;
+}
+
+button{
+    margin-left:20px;
+}
+
+span.arrow{
+    color:red;
+    margin-top:-10px;
+}
+
+.arrow-icon {
+    transition: all transform 0.3s ease !important; /* Add transition for smooth effect */
+  }
+  
+  .button:hover .arrow-icon {
+    transform:all translateX(10px) !important; /* Move the icon 10px to the right on hover */
+  }
+  .second-intro{
+    margin-top:20px;
+    text-align: end;
+    height:80px;
+  }
+
+  .second-half{
+    text-align: left;
+    display: flex;
+  }
+
+
+  .three-containers{
+    margin-top:80px; 
+    border:2px solid;
+    display: flex;
+    justify-content: space-around;
+    padding-top:30px;
+
+  }
+  .indv-container{
+   border:2px solid green;
+  }
+
+  .section-one-heading{
+    text-transform: none;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .works-section{
+    padding-top:50px;
+    padding-bottom: 50px;
+  }
+  .card-heading{
+    font-size:21.3px;
+    font-family: "Krona One", sans-serif;
+  }
+ 
+
+.work-img-1{
+  height: 25vh;
+  object-fit: cover; 
+}
+
+.works-section .card-body a{
+  text-decoration: none;
+  color:black
+}
+.works-section .card-body a:hover{
+  text-decoration: none;
+  color:blue;
+}
+.works-section .card-body a::after{
+  content: " →";
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+.works-section .card-body a:hover::after{
+  content: '→';
+  font-size: 25px;
+  display: inline-block;
+  animation: moveRight 0.3s ease forwards;
+}
+@keyframes moveRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(15px); /* Adjust the distance as needed */
+  }
 }
