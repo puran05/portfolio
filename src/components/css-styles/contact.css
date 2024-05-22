@@ -1,3 +1,28 @@
+.body{
+    font-family: "Krona One", sans-serif;
+}
+.circle-div{
+    height:6vw;
+    width:6vw; 
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.circle-div-email{
+    margin-left: 10px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: start;
+}
+.envelope{
+    font-size:2vw;
+}
+.linkedIn-icon-wrapper{
+    font-size:10px;
+}
 .content{
     padding:60px
 }
@@ -7,9 +32,15 @@
 }
 
 .phone{
+   justify-content: center;
     padding:60px;
 }
+ 
 
-.connect{
-    padding:60px;
+.email-part{
+    display:flex;
+}
+.contact-image-three{
+    display: flex;
+    justify-content: start;
 }

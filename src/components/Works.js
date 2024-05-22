@@ -1,11 +1,12 @@
 import React from "react";
+import "./css-styles/works.css";
 
 export default function Works() {
   return (
     <>
-      <div className="container">
+      <div className="container col-6">
         <div className="row">
-          <div className="col">
+          <div className="col heading-section">
             <h2>Works</h2>
           </div>
           <div className="row">

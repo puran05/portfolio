@@ -4,6 +4,7 @@ import "./css-styles/home.css";
 import "font-awesome/css/font-awesome.min.css";
 import img1 from "../images/img1.png";
 import img2 from "../images/img2.png";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -32,11 +33,17 @@ export default function Home() {
         </div>
         <div className="row socials">
           <div className="col">
-            <i class="fa fa-github fa-3x" aria-hidden="true">
-              {" "}
-            </i>
-            <i className="fa fa-linkedin fa-3x"> </i>{" "}
-            <i class="fa fa-codepen fa-3x" aria-hidden="true"></i>
+            <Link to="https://github.com/puran05" className="social-link-one">
+              <i className="fa fa-github fa-3x" aria-hidden="true">
+                {" "}
+              </i>
+            </Link>
+            <Link to="https://www.linkedin.com/in/puran-subedi-aa3544231/">
+              <i className="fa fa-linkedin fa-3x"> </i>{" "}
+            </Link>
+            <Link to="https://codepen.io/puran05">
+              <i className="fa fa-codepen fa-3x" aria-hidden="true"></i>
+            </Link>
           </div>
         </div>
         {/* this is the section below the social images link */}
@@ -44,13 +51,13 @@ export default function Home() {
           <h2 className="section-one-heading">I build webapps and websites</h2>
           <p>
             I have experience working on full stack apps . Also, I have worked
-            with some clients to creates sites Wordpress and Shopify.
+            with clients to creates sites Wordpress and Shopify.
           </p>
         </div>
         {/* below is the section where the workshowcase will go */}
 
         <div className="row works-section">
-          <div className="col-4">
+          <div className="col-xl-4 col-lg-4 col-sm-12 mt-2">
             <div className="card ">
               <img className="work-img-1" src={img1}></img>
               <div className="card-body">
@@ -63,36 +70,35 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="col-4 ">
+          <div className="col-xl-4 col-lg-4 col-sm-12 mt-2">
             <div className="card ">
               <img className="work-img-1" src={img2}></img>
               <div className="card-body">
-                <div className="card-title card-heading">
-                  Loca Liquor Business
-                </div>
+                <div className="card-title card-heading">Liquor Store</div>
                 <div className="card-text">
-                  Build on shopify, this site provides user experience to make
+                  Build on wordpress, this site provides user experience to make
                   smooth and effecient online shopping experience
                 </div>
                 <a href="#">Visit Site</a>
               </div>
             </div>
           </div>
-          <div className="col-4 ">
+          <div className="col-xl-4 col-lg-4 col-sm-12 mt-2">
             <div className="card ">
               <img className="work-img-1" src={img1}></img>
               <div className="card-body">
-                <div className="card-title card-heading">
-                  Local Bike Business
-                </div>
+                <div className="card-title card-heading">Zoom Bikes</div>
                 <div className="card-text">
-                  Build on shopify, this site provides user experience to make
-                  smooth and effecient online shopping experience
+                  Build using MERN stack. This app showcases beauty of react
+                  with while enjoying the robust backend technology.
                 </div>
                 <a href="#">Visit Site</a>
               </div>
             </div>
           </div>
+        </div>
+        <div>
+          <a href="http://localhost:3000/images/img1.png" target="_blank"></a>
         </div>
       </div>
     </>

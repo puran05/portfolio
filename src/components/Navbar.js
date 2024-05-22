@@ -13,11 +13,11 @@ export default function Navbar() {
               About
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link className="nav-link" to="/works" activeClassName="active">
               Works
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link className="nav-link" to="/contact">
               Contact

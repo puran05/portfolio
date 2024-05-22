@@ -4,19 +4,23 @@ import edu1 from "../images/edu1.png";
 import work1 from "../images/work1.png";
 export default function About() {
   return (
-    <div className="container body">
+    <div className="container col-10">
       <h2>About</h2>
       <div className="row">
         <div className="col-8">
           <p>
-            Hi there! I enjoy working on the things that can be done on web. I
-            got fascinated with the internet ever since I was a kid. With some
-            interest in art it spiked my interest in web development. It felt
-            something very similar to makign art. I feel like an empty webpage
-            is a canvas and bulding things on top of it is like an artist making
-            paint on the canvas. Html and css grabbed my attention on the web
-            world. Later on as i dived deeper into it I JS, Html and css made
-            lot of possibilites.{" "}
+            Hi there! I have always been captivated by the endless possibilities
+            of the web. My fascination with the internet began in childhood, and
+            my interest in art naturally led me to web development. To me, an
+            empty webpage is like a blank canvas, and building on it feels akin
+            to creating a masterpiece. HTML and CSS initially grabbed my
+            attention, and as I delved deeper, JavaScript further expanded the
+            horizons of what I could achieve. My passion for web development
+            inspired me to start creating full-stack applications, which
+            eventually led me to work with WordPress. I’ve built websites for
+            businesses and ventured into the e-commerce space by developing
+            sites using Shopify. The ability to bring ideas to life on the web
+            continues to inspire me every day.{" "}
           </p>
         </div>
       </div>
@@ -28,21 +32,18 @@ export default function About() {
           </p>
         </div>
         <div className="row">
-          <div className="col col-8">
-            <div className="col-4">
-              <ul>
-                <li>Html,Css & Js</li>
-                <li>React</li>
-                <li>.NET technologies</li>
-              </ul>
-            </div>
-            <div className="col-4">
-              <ul>
-                <li>Wordpress</li>
-                <li>Shopify</li>
-                <li>.NET technologies</li>
-              </ul>
-            </div>
+          <div className="col-4">
+            <ul>
+              <li>Html,Css & Js</li>
+              <li>React</li>
+              <li>.NET technologies</li>
+            </ul>
+          </div>
+          <div className="col-4">
+            <ul>
+              <li>Wordpress</li>
+              <li>Shopify</li>
+            </ul>
           </div>
         </div>
       </div>

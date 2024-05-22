@@ -44,14 +44,18 @@ p{
     margin-left:25px;
     padding:40px;
 }
+ 
 .fa-linkedin{
     color:#0A66C2;
     margin-right:8px;
 }
 .fa-github {
     margin-right: 8px;
+    color:black !important;
 }
-
+.fa-codepen{
+  color:black;
+}
 
 .first-intro{
     color:black;
