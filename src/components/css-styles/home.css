@@ -27,6 +27,15 @@ p{
     align-content: center;
     align-items: center;
     justify-content: center;
+    transition:all 1s ease-out;
+    
+}
+.right-side:hover{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  transform:translateY(-20px)
 }
 
 .profile-pic{
@@ -37,6 +46,7 @@ p{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+    box-shadow:1px 1px 1px 2px rgb(146, 146, 146);
 }
 
 /* to the sections below the hero section */
@@ -120,7 +130,8 @@ span.arrow{
 
 .work-img-1{
   height: 25vh;
-  object-fit: cover; 
+  object-fit: contain;
+  width: 100%; 
 }
 
 .works-section .card-body a{

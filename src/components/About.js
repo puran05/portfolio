@@ -7,7 +7,7 @@ export default function About() {
     <div className="container col-10">
       <h2>About</h2>
       <div className="row">
-        <div className="col-8">
+        <div className="col-lg-8 col-md-8 col-sm-12">
           <p>
             Hi there! I have always been captivated by the endless possibilities
             of the web. My fascination with the internet began in childhood, and
