@@ -1,164 +1,199 @@
-h1,h2,h3,h4,h5{
-    font-family: "Krona One", sans-serif;
-    text-transform: uppercase;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Krona One", sans-serif;
+  text-transform: uppercase;
 }
- 
-p{
-    font-family: "Open Sans", sans-serif;
+
+p {
+  font-family: "Open Sans", sans-serif;
 }
+
 /* this is for the hello world tag */
-.first-name{
-    font-size: 76px;
+.first-name {
+  font-size: 76px;
 }
 
 /* for my first and last name */
-.introduction{
-    font-size:47px;
+.introduction {
+  font-size: 47px;
 
 }
 
-.name-subtitle{
-    padding-top: 15px;
+.name-subtitle {
+  padding-top: 15px;
 }
 
 /* for the right side div and below is the div inside this div*/
-.right-side{
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    transition:all 1s ease-out;
-    
-}
-.right-side:hover{
+.right-side {
   display: flex;
   align-content: center;
   align-items: center;
   justify-content: center;
-  transform:translateY(-20px)
+  transition: all 1s ease-out;
+
 }
 
-.profile-pic{
-    height:350px;
-    width:350px;
-    border-radius: 50%;
-    background-image: url('../../images/display-pic.jpeg');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    box-shadow:1px 1px 1px 2px rgb(146, 146, 146);
+.right-side:hover {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-20px)
+}
+
+.profile-pic {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  background-image: url('../../images/display-pic.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 1px 1px 1px 2px rgb(146, 146, 146);
 }
 
 /* to the sections below the hero section */
-.socials{
-    margin-left:25px;
-    padding:40px;
+.socials {
+  margin-left: 25px;
+  padding: 40px;
 }
- 
-.fa-linkedin{
-    color:#0A66C2;
-    margin-right:8px;
+
+.fa-linkedin {
+  color: #0A66C2;
+  margin-right: 8px;
+  transition: 200ms ease-in;
 }
+
+.fa-linkedin:hover {
+  transform: translateY(-10px);
+}
+
 .fa-github {
-    margin-right: 8px;
-    color:black !important;
-}
-.fa-codepen{
-  color:black;
+  margin-right: 8px;
+  color: black !important;
+  transition: 200ms ease-in;
 }
 
-.first-intro{
-    color:black;
-    text-align: center;
+.fa-github:hover {
+  transform: translateY(-10px);
+
 }
 
-button{
-    margin-left:20px;
+.fa-codepen {
+  color: black;
+  transition: 200ms ease-in;
 }
 
-span.arrow{
-    color:red;
-    margin-top:-10px;
+.fa-codepen:hover {
+  transform: translateY(-10px);
+
+}
+
+.first-intro {
+  color: black;
+  text-align: center;
+}
+
+button {
+  margin-left: 20px;
+}
+
+span.arrow {
+  color: red;
+  margin-top: -10px;
 }
 
 .arrow-icon {
-    transition: all transform 0.3s ease !important; /* Add transition for smooth effect */
-  }
-  
-  .button:hover .arrow-icon {
-    transform:all translateX(10px) !important; /* Move the icon 10px to the right on hover */
-  }
-  .second-intro{
-    margin-top:20px;
-    text-align: end;
-    height:80px;
-  }
+  transition: all transform 0.3s ease !important;
+  /* Add transition for smooth effect */
+}
 
-  .second-half{
-    text-align: left;
-    display: flex;
-  }
+.button:hover .arrow-icon {
+  transform: all translateX(10px) !important;
+  /* Move the icon 10px to the right on hover */
+}
+
+.second-intro {
+  margin-top: 20px;
+  text-align: end;
+  height: 80px;
+}
+
+.second-half {
+  text-align: left;
+  display: flex;
+}
 
 
-  .three-containers{
-    margin-top:80px; 
-    border:2px solid;
-    display: flex;
-    justify-content: space-around;
-    padding-top:30px;
+.three-containers {
+  margin-top: 80px;
+  border: 2px solid;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
 
-  }
-  .indv-container{
-   border:2px solid green;
-  }
+}
 
-  .section-one-heading{
-    text-transform: none;
-    padding-top: 40px;
-    padding-bottom: 30px;
-  }
+.indv-container {
+  border: 2px solid green;
+}
 
-  .works-section{
-    padding-top:50px;
-    padding-bottom: 50px;
-  }
-  .card-heading{
-    font-size:21.3px;
-    font-family: "Krona One", sans-serif;
-  }
- 
+.section-one-heading {
+  text-transform: none;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
 
-.work-img-1{
+.works-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card-heading {
+  font-size: 21.3px;
+  font-family: "Krona One", sans-serif;
+}
+
+
+.work-img-1 {
   height: 25vh;
   object-fit: contain;
-  width: 100%; 
+  width: 100%;
 }
 
-.works-section .card-body a{
+.works-section .card-body a {
   text-decoration: none;
-  color:black
+  color: black
 }
-.works-section .card-body a:hover{
+
+.works-section .card-body a:hover {
   text-decoration: none;
-  color:blue;
+  color: blue;
 }
-.works-section .card-body a::after{
+
+.works-section .card-body a::after {
   content: " →";
   font-size: 25px;
   vertical-align: middle;
 }
 
-.works-section .card-body a:hover::after{
+.works-section .card-body a:hover::after {
   content: '→';
   font-size: 25px;
   display: inline-block;
   animation: moveRight 0.3s ease forwards;
 }
+
 @keyframes moveRight {
   from {
     transform: translateX(0);
   }
+
   to {
-    transform: translateX(15px); /* Adjust the distance as needed */
+    transform: translateX(15px);
+    /* Adjust the distance as needed */
   }
 }
