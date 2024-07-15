@@ -1,0 +1,38 @@
+.portfolio-containerone {
+    height: 400px;
+    background-image: url('/src/images/showcase-img.png');
+    background-size: 70%;
+    background-position: 25% 0%;
+    background-repeat: no-repeat;
+    transition: 400ms ease-in-out;
+}
+
+.portfolio-containerone:hover {
+    transform: rotate(2deg);
+
+}
+
+.flx-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.work-img-1 {
+    height: 25vh;
+    object-fit: contain;
+    width: 100%;
+}
+
+.portfolio-description {
+    padding-left: 40px;
+    margin-top: -100px;
+}
+
+.portfolio-description>p {
+    margin-top: -20px;
+}
+
+.section-one-heading {
+    font-size: 21.3px;
+    font-family: "Krona One", sans-serif;
+}

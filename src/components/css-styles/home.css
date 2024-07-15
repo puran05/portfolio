@@ -141,6 +141,18 @@ span.arrow {
   border: 2px solid green;
 }
 
+.section-one {
+  background-color: #8C52FF;
+  padding-bottom: 10px;
+}
+
+.testMeo {
+  min-height: 150px;
+  background-image: url('/src/images/testy.png');
+  background-size: cover;
+  background-position: left-center;
+}
+
 .section-one-heading {
   text-transform: none;
   padding-top: 40px;
@@ -196,4 +208,30 @@ span.arrow {
     transform: translateX(15px);
     /* Adjust the distance as needed */
   }
+}
+
+.pink-block {
+  background-color: #f0ced9;
+  min-height: 300px;
+
+}
+
+.pink-block-last {
+  background-color: #D8B2E1;
+  min-height: 300px;
+
+}
+
+/* .testMe {
+  margin-top: -200px;
+  min-height: 200px;
+  border: 4px solid red;
+  background-image: url('/src/images/testy.png');
+  background-size: cover;
+  background-position: left-center;
+}
+ */
+
+.test {
+  border: 2px solid red;
 }
