@@ -68,48 +68,6 @@ export default function Home() {
       </div>
       {/* below is the section where the workshowcase will go */}
       <div className="row works-section">
-        {/* <div className="col-xl-4 col-lg-4 col-sm-12 mt-2">
-          <div className="card ">
-            <img className="work-img-1" src={img1}></img>
-            <div className="card-body">
-              <div className="card-title card-heading">Clothing</div>
-              <div className="card-text">
-                Build on shopify, this site provides user experience to make
-                smooth and effecient online shopping experience
-              </div>
-              <a href="#">Visit Site</a>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-xl-4 col-lg-4 col-sm-12 mt-2">
-          <div className="card ">
-            <img className="work-img-1" src={img2}></img>
-            <div className="card-body">
-              <div className="card-title card-heading">Liquor Store</div>
-              <div className="card-text">
-                Build on wordpress, this site provides user experience to make
-                smooth and effecient online shopping experience
-              </div>
-              <a href="#">Visit Site</a>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-xl-4 col-lg-4 col-sm-12 mt-2">
-          <div className="card ">
-            <img className="work-img-1" src={img1}></img>
-            <div className="card-body">
-              <div className="card-title card-heading">Zoom Bikes</div>
-              <div className="card-text">
-                Build using MERN stack. This app showcases beauty of react with
-                while enjoying the robust backend technology.
-              </div>
-              <a href="#">Visit Site</a>
-            </div>
-          </div>
-        </div> */}
-        {/* deletethis div section */}
         <div className="container-fluid portfolio-showcase mt-5">
           <div className="row ">
             <div className="col-lg-4 col-md-6 col-sm-6 ">
