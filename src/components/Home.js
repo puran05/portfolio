@@ -57,7 +57,6 @@ export default function Home() {
 
       {/* the waves section        */}
       <div className=" testMeo"></div>
-
       {/* this is the section below the social images link */}
       <div className="container-fluid section-one">
         <h2 className="section-one-heading">I build webapps and websites</h2>

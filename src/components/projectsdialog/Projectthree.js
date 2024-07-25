@@ -3,12 +3,13 @@ import React, { useState } from "react";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
-import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import Button from "@mui/material/Button";
 import "../projectsdialog/projectfile.css";
 import CloseIcon from "@mui/icons-material/Close";
 import ZoomB from "../../images/portfolio-img/zoom-portfoliopic.png";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 
 const Project3 = () => {
   const [open, setOpen] = useState(false);
@@ -33,17 +34,42 @@ const Project3 = () => {
       {/* <Button variant="outlined" color="primary" onClick={handleClickOpen}>
         Open Dialog
       </Button> */}
-      <Dialog open={open} onClose={handleClose}>
-        <DialogTitle>Dialog Title</DialogTitle>
+      <Dialog open={open} onClose={handleClose} maxWidth="lg" fullWidth>
+        <DialogTitle sx={{ textAlign: "right" }}>Zoom Bikes</DialogTitle>
         <DialogContent>
-          <DialogContentText>
-            This is a paragraph inside the dialog window.
-          </DialogContentText>
-          <img
-            src={ZoomB}
-            alt="Description"
-            style={{ width: "100%", height: "auto" }}
-          />
+          <Box display="flex" flexDirection="row">
+            <Box
+              flex=" 1 1 50%"
+              p={1}
+              display="flex"
+              flexDirection="column"
+              justify-content="space-between"
+            >
+              <img
+                src={ZoomB}
+                alt="Description"
+                style={{ width: "100%", height: "auto" }}
+              />
+            </Box>
+            <Box
+              flex="1 1 50%"
+              p={1}
+              display="flex"
+              flexDirection="column"
+              justifyContent="space-between"
+              margin-top="10%"
+            >
+              <Typography variant="body1" gutterBottom>
+                Created as a side project. Zoom Bikes is a replica of an
+                ecommerce system. The project is based on MERN stack, thus React
+                has been used for front-end , express and node for backend and I
+                have used mongo db for database of the bikes. Github code of the
+                project can be found on the link below. Feel free to check it
+                out and send some suggestion my way. I will really appreciate
+                it.
+              </Typography>
+            </Box>
+          </Box>
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose} color="error">
