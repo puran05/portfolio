@@ -146,11 +146,17 @@ span.arrow {
   padding-bottom: 10px;
 }
 
-.testMeo {
+.waves-pattern {
   min-height: 150px;
   background-image: url('/src/images/testy.png');
   background-size: cover;
   background-position: left-center;
+}
+
+@media (max-width: 767px) {
+  .waves-pattern {
+    background-image: url('/src/images/mobile_view.png');
+  }
 }
 
 .section-one-heading {

@@ -55,8 +55,8 @@ export default function Home() {
         </div>
       </div>
 
-      {/* the waves section        */}
-      <div className=" testMeo"></div>
+      {/* the waves section*/}
+      <div className="waves-pattern"></div>
       {/* this is the section below the social images link */}
       <div className="container-fluid section-one">
         <h2 className="section-one-heading">I build webapps and websites</h2>
