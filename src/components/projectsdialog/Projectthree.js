@@ -9,6 +9,8 @@ import "../projectsdialog/projectfile.css";
 import CloseIcon from "@mui/icons-material/Close";
 import ZoomB from "../../images/portfolio-img/zoom-portfoliopic.png";
 import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+
 import Typography from "@mui/material/Typography";
 
 const Project3 = () => {
@@ -37,39 +39,41 @@ const Project3 = () => {
       <Dialog open={open} onClose={handleClose} maxWidth="lg" fullWidth>
         <DialogTitle sx={{ textAlign: "right" }}>Zoom Bikes</DialogTitle>
         <DialogContent>
-          <Box display="flex" flexDirection="row">
-            <Box
-              flex=" 1 1 50%"
-              p={1}
-              display="flex"
-              flexDirection="column"
-              justify-content="space-between"
-            >
-              <img
-                src={ZoomB}
-                alt="Description"
-                style={{ width: "100%", height: "auto" }}
-              />
-            </Box>
-            <Box
-              flex="1 1 50%"
-              p={1}
-              display="flex"
-              flexDirection="column"
-              justifyContent="space-between"
-              margin-top="10%"
-            >
-              <Typography variant="body1" gutterBottom>
-                Created as a side project. Zoom Bikes is a replica of an
-                ecommerce system. The project is based on MERN stack, thus React
-                has been used for front-end , express and node for backend and I
-                have used mongo db for database of the bikes. Github code of the
-                project can be found on the link below. Feel free to check it
-                out and send some suggestion my way. I will really appreciate
-                it.
-              </Typography>
-            </Box>
-          </Box>
+          <Grid container>
+            <Grid item xs={12} md={6}>
+              <Box
+                flex=" 1 1 50%"
+                p={1}
+                display="flex"
+                flexDirection="column"
+                justify-content="space-between"
+              >
+                <img
+                  src={ZoomB}
+                  alt="Description"
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </Box>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <Box
+                flex="1 1 50%"
+                p={1}
+                display="flex"
+                flexDirection="column"
+                justifyContent="space-between"
+                margin-top="10%"
+              >
+                <Typography variant="body1" gutterBottom>
+                  This MERN stack project has been created as a replica of
+                  e-commerce website for a side project. Github code of the
+                  project can be found on the link below. Feel free to check it
+                  out and send some suggestion my way. I will really appreciate
+                  it.
+                </Typography>
+              </Box>
+            </Grid>
+          </Grid>
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose} color="error">
