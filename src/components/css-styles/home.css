@@ -29,6 +29,13 @@ p {
 
 }
 
+@media only screen and (max-width: 600px) {
+  .introduction {
+    font-size: 3rem;
+    /* Adjusted size for mobile, e.g., 40px */
+  }
+}
+
 .name-subtitle {
   padding-top: 15px;
 }
