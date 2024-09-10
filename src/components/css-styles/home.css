@@ -13,7 +13,14 @@ p {
 
 /* this is for the hello world tag */
 .first-name {
-  font-size: 76px;
+  font-size: 4.75rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .first-name {
+    font-size: 2.5rem;
+    /* Adjusted size for mobile, e.g., 40px */
+  }
 }
 
 /* for my first and last name */

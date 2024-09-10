@@ -25,7 +25,9 @@
 
 .portfolio-description {
     padding-left: 40px;
+    /* below margin if added, shows perfectly aligned on the laptop view but goes behind the image on bigger screen  */
     margin-top: -100px;
+
 }
 
 .portfolio-description>p {
